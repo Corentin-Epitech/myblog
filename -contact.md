@@ -15,3 +15,12 @@ Pour acceder a mon github :
 Mon linkedin :
 
 <https://www.linkedin.com/in/corentin-courtine-30b5771b0/>
+
+Nom :
+<input type="text" id="name" name="name"/>
+
+Email : 
+<input type="text" id="email" name="email" />
+
+Votre message : 
+<textarea type="text" id="textarea" name="textarea">
