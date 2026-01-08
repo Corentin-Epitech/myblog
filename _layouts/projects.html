@@ -1,16 +1,16 @@
-<link rel="stylesheet" href="/_stylesheet/projects.css">
+<link rel="stylesheet" href="/projects.css">
 
 <main>
   {% include sidenav.html %}
-
+  {% include headbar.html %}
   {% for project in site.projects %}
-  <article>
+  <a class="linkbox" href="{{ project.url }}">
+  <Div>
     <h2>
-      <a href="{{ project.url }}">
         {{ project.title }}
-      </a>
     </h2>
-    Realisations d'un {{ project.title }}
-  </article>
+    Realisations d'un {{ project.description }}
+  </div>
+  </a>
 {% endfor %}
 </main>

@@ -54,5 +54,5 @@ plugins:
 collections: 
   projects:
     output : true
-  styleshett: 
+  stylesheet: 
     output : true 

@@ -14,17 +14,29 @@
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 20px;
   color: #818181;
   display: block;
+  margin-top: 5%;
 }
 
-main {
-  margin-left: 180px; /* Same as the width of the sidebar */
-  padding: 0px 10px;
+.sidenav a:hover {
+  color: #f1f1f1;
 }
 
 .avatar {
   border-radius: 50%;
   margin-left: 5%;
+}
+
+body {
+  background-color: #31222e;
+}
+
+main {
+  margin-left: 220px;
+  margin-top: 220px;
+  padding: 0px 10px;
+  font-family: "Exo 2";
+  color: white;
 }

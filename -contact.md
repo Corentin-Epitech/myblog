@@ -4,23 +4,23 @@ title: Contact
 permalink: /contact/
 ---
 
-Pour me contacter par Mail : 
+### Pour me contacter par Mail : 
 
 <corentin.courtine@epitech.eu>
 
-Pour acceder a mon github : 
+### Pour acceder a mon github : 
 
 <https://github.com/Corentin-Epitech>
 
-Mon linkedin :
+### Mon linkedin :
 
 <https://www.linkedin.com/in/corentin-courtine-30b5771b0/>
 
-Nom :
+### Nom :
 <input type="text" id="name" name="name"/>
 
-Email : 
+### Email : 
 <input type="text" id="email" name="email" />
 
-Votre message : 
-<textarea type="text" id="textarea" name="textarea">
+### Votre message : 
+<textarea class="area" type="text" id="textarea" name="textarea">

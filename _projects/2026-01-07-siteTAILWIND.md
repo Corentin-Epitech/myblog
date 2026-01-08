@@ -1,6 +1,7 @@
 ---
 layout: projet
 title:  "Site statique en CSS TailWind"
+description: Test
 
 ---
 Realisations d'un site statique en HTML et CSS tailwind
