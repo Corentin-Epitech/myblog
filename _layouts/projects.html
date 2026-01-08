@@ -4,7 +4,13 @@ layout : page
 
 ---
 
-
-{% for projet in site.projects %}
-    {{ projet.title}} <br>
+  {% for project in site.projects %}
+  <article>
+    <h2>
+      <a href="{{ project.url }}">
+        {{ project.title }}
+      </a>
+    </h2>
+    Realisations d'un {{ project.title }}
+  </article>
 {% endfor %}
