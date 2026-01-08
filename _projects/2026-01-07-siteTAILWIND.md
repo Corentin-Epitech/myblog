@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: projet
 title:  "Site statique en CSS TailWind"
 
 ---

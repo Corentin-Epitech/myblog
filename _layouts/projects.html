@@ -1,8 +1,7 @@
----
+<link rel="stylesheet" href="/_stylesheet/projects.css">
 
-layout : page
-
----
+<main>
+  {% include sidenav.html %}
 
   {% for project in site.projects %}
   <article>
@@ -14,3 +13,4 @@ layout : page
     Realisations d'un {{ project.title }}
   </article>
 {% endfor %}
+</main>
