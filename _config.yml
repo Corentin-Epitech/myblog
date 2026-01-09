@@ -22,8 +22,8 @@ title: Corentin Courtine
 email: corentin.courtine@epitech.eu
 description: >- # this means to ignore newlines until "baseurl:"
   Voici mon site servant de portfolio. Ici vous pourrez y retrouver toutes les informations utiles me concernant et comment me contacter.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/myblog" # the subpath of your site, e.g. /blog
+url: "https://Corentin-Epitech.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ""
 github_username: Corentin-Epitech
 # Build settings
