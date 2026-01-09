@@ -5,12 +5,19 @@
   {% include headbar.html %}
   {% for project in site.projects %}
   <a class="linkbox" href="{{ project.url }}">
-  <Div>
+  <Div class="box">
     <h2>
         {{ project.title }}
     </h2>
+    <p class="desc">
     Realisations d'un {{ project.description }}
+    </p>
+    <p class="cat">
+    {% for cat in project.categorie %}
+      {{cat[1]}}
+    {% endfor %}
+    </p>
   </div>
   </a>
-{% endfor %}
+  {% endfor %}
 </main>

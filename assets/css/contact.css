@@ -7,11 +7,19 @@ textarea {
 }
 
 input {
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: rgb(123, 121, 124);
     border-style: none;
 }
 
 h3 {
     text-decoration: underline;
+}
+
+.sidenav .contact {
+    background-color: rgb(255, 255, 255, 0.2);
+    border-radius: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: white;
 }

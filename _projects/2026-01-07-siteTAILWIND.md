@@ -2,7 +2,9 @@
 layout: projet
 title:  "Site statique en CSS TailWind"
 description: Test
-
+categorie: 
+    cat1: HTML
+    cat2: CSS Tailwind
 ---
 Realisations d'un site statique en HTML et CSS tailwind
 
