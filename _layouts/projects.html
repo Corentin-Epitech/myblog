@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="{{ '/assets/css/projects.css' | relative_url }}">
+<link rel="stylesheet" href="/assets/css/projects.css">
 
 <main>
   {% include sidenav.html %}
@@ -9,14 +9,18 @@
     <h2>
         {{ project.title }}
     </h2>
+    <hr>
     <p class="desc">
-    Realisations d'un {{ project.description }}
+    {{ project.description }}
     </p>
-    <p class="cat">
+    <hr>
+    <div class="categorie">
     {% for cat in project.categorie %}
+      <p class="cat">
       {{cat[1]}}
+      </p>
     {% endfor %}
-    </p>
+    </div>
   </div>
   </a>
   {% endfor %}

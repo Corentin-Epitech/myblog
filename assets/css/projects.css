@@ -23,7 +23,8 @@
 }
 
 h2 {
-    margin: auto;
+    margin: 10px;
+    
 }
 
 main {
@@ -33,9 +34,23 @@ main {
 }
 
 .desc {
-    margin: auto;
+    margin: 10px;
 }
 
 .cat {
     margin: auto;
+    background-color: rgb(8, 8, 51, 0.6);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+hr {
+    width: 80%;
+    border: 1px solid white;
+}
+
+.categorie {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 15px;
 }

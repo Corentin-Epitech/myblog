@@ -12,6 +12,10 @@ input {
     border-style: none;
 }
 
+#submit {
+    padding: 10px;
+}
+
 h3 {
     text-decoration: underline;
 }
@@ -22,4 +26,17 @@ h3 {
     margin-right: 5px;
     margin-left: 5px;
     color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    width: 10%;
+}
+
+.avatar {
+    width: auto;
 }

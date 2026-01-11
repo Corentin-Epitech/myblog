@@ -1,22 +1,31 @@
-<link rel="stylesheet" href="{{ '/assets/css/home.css' | relative_url }}">
+<link rel="stylesheet" href="/assets/css/home.css">
 
 <main>
   {% include sidenav.html %}
   {% include headbar.html %}
   {{ content }}
-    
+  
   {% for project in site.projects limit: 3 %}
   <a class="linkbox" href="{{ project.url }}">
-  <Div class="box">
-    <h2>
-        {{ project.title }}
-    </h2>
-    Realisations d'un {{ project.description }}
-    {% for cat in project.categorie %}
-      {{cat[1]}}
-    {% endfor %}
-  </div>
+    <Div class="box">
+      <h3>
+          {{ project.title }}
+      </h3>
+      <hr>
+      <p class="desc">
+      {{ project.description }}
+      </p>
+      <hr>
+      <div class="categorie">
+      {% for cat in project.categorie %}
+        <p class="cat">
+        {{cat[1]}}
+        </p>
+      {% endfor %}
+      </div>
+    </div>
   </a>
   {% endfor %}
 
+  <a class="more" href="/projects/">Voir plus de projet</a>
 </main>

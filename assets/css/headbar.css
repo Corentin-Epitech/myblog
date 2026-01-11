@@ -6,6 +6,7 @@
     left: 0;
     position: fixed;
     margin-top: 20px;
+    
 }
 
 .title {
@@ -13,4 +14,7 @@
     font-size: 50px;
     font-family: "sekuya";
     color: rgb(189, 181, 181);
+    padding-left: 160px;
+    height: 127px;
+    margin: auto;
 }
